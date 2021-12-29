@@ -70,7 +70,7 @@ Led::Led(LedColor_Type _color, LedState_Type _state)
 }
 
 void Led::Led_setState(LedState_Type _state){
-	//tüm "me" ler yerine this yaziliyor
+	//tÃ¼m "me" ler yerine this yaziliyor
 	this->state = _state;
 	
 	switch(this->color){
