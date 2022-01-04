@@ -1,5 +1,5 @@
 #include <stdint.h>
-//AHB1 için clock access gerekiyor. GPIOlar bu busa bagli
+//AHB1 iÃ§in clock access gerekiyor. GPIOlar bu busa bagli
 //USART2 ise APB1 busa bagli.
 #define periph_base  0x40000000U
 #define AHB1_periph_base  (periph_base + 0x20000U)
@@ -9,7 +9,7 @@
 //GPIOA_BASE address in AHB1 Bus 0x40020000
 #define GPIOA_BASE (AHB1_periph_base + 0x00U)
 //reference manualdan GPIO registerlara(MODER), (OTYPER)... atama yapilacak
-//GPIO Registerlar için address offset 0x00 asagilara indikçe address offset artiyor
+//GPIO Registerlar iÃ§in address offset 0x00 asagilara indikÃ§e address offset artiyor
 #define __IO volatile //__IO volatile tipinde
 	
 typedef struct
